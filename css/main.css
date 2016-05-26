@@ -94,6 +94,7 @@ blockquote {
 	text-align: center;
 	width: 60%;	
 	margin: -30px 0 0 210px;
+	font-size: 1.4rem;
 }
 
 /*--------------------------------------------------------------
@@ -196,6 +197,7 @@ h3 {
 	width: 61%;	
 	font-size: 1.4rem;
 	float: right;
+	margin-top: 19px;
 }
 
 #submit-button {
@@ -205,7 +207,7 @@ h3 {
 	border-color: black;
 	width: 100%;	
 	font-size: 1.4rem;
-	float: right;
+	margin: 20px 0 0 437px;
 }
 
 
@@ -225,8 +227,16 @@ input, textarea {
 	width: 120%;
 	padding: 19px;
 	border:2px solid black;
+	margin-top: 20px;
 }
 
+textarea {
+	width: 296%;	
+}
+
+#form-two {
+	margin: 60px 0 0 210px;	
+}
 
 /*--------------------------------------------------------------
 1.5 - LISTS
@@ -364,7 +374,26 @@ img {
 
 /*--------------------------------------------------------------
 4.0 - MEDIA
--------------------------------------------------------------- */
+-------------------------------------------------------------- */	
+
+#twitter {
+	width: 50px;
+	height: 37px;
+	background:url(../img/twitter-icon.png) no-repeat;	
+	margin-left: 207px;
+}
+
+#google {
+	width: 50px;
+	height: 37px;
+	background:url(../img/google-icon.png) no-repeat;	
+}
+
+#facebook {
+	width: 50px;
+	height: 37px;
+	background:url(../img/facebook-icon.png) no-repeat;	
+}
 
 #logo {
 	background:url(../img/logo.png) no-repeat;
@@ -394,7 +423,7 @@ img {
 #sunrise {
 	width: 145px;
 	height: 145px;
-	background: white;
+	background:url(../img/sunrise.png) no-repeat center center;
 	border-style: solid;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
@@ -405,7 +434,7 @@ img {
 #finch-house-blend {
 	width: 145px;
 	height: 145px;
-	background: white;
+	background:url(../img/finchhouseblend.png) no-repeat center center;
 	border-style: solid;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
@@ -416,7 +445,7 @@ img {
 #midnight {
 	width: 145px;
 	height: 145px;
-	background: white;
+	background:url(../img/midnight.png) no-repeat center center;
 	border-style: solid;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
@@ -427,7 +456,7 @@ img {
 #espresso {
 	width: 145px;
 	height: 145px;
-	background: white;
+	background:url(../img/espresso.png) no-repeat center center;
 	border-style: solid;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
@@ -465,7 +494,7 @@ img {
 
 #background-six {
 	background-color: gray;
-	height: 750px;
+	height: 850px;
 	margin-top: 60px;	
 }
 
@@ -486,52 +515,489 @@ img {
 
 @media screen and (max-width: 480px) {
 
+
+/*--------------------------------------------------------------
+1.1 - BODY
+-------------------------------------------------------------- */
+
+p {
+	font-size: 1rem;	
+}
+
+#eve-oak-txt {
+	color: white;
+	font-size: 1.3rem;
+	line-height: 25px;
+	margin: -30px 0 40px 0;
+}
+
+#eve-oak-details {
+	color: white;
+	font-size: 1rem;
+	line-height: 20px;
+}
+
+#eve-oak-price {
+	color: white;
+	font-size: 1.4rem;
+	line-height: 20px;
+	margin-top: -10px;
+}
+
+blockquote {
+	font-size: 1.2rem;
+	color: white;
+	text-align: center;	
+	font-weight: 700;
+	margin-top: 165px 0 0 10px;
+}
+
+#cite {
+	font-weight: 400;
+	font-size: .9rem;
+	margin-top: -20px;	
+}
+
+#location {
+	margin-top: 10px;	
+	font-size: 1rem;
+	width: 100%
+}
+
+#about-txt {
+	margin-top: 15px;	
+	font-size: 1rem;
+	width: 100%
+}
+
+#brew-txt {
+	text-align: center;
+	font-size: 1.2rem;
+	line-height: 23px;
+	margin: 30px 0 0 5px;
+	width: 100%;
+}
+
+#center {
+	text-align: center;
+	width: 100%;	
+	margin: -30px 0 0 5px;
+	font-size: 1rem;
+}
+
+/*--------------------------------------------------------------
+1.2 - HEADINGS
+-------------------------------------------------------------- */
+
+h1 {
+	color:white;
+	font-size: 3.5rem;	
+}
+
+#h1 {
+	width: 100%;
+}
+
+h2 {
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 50px;
+}
+
+h3 {
+	margin-bottom: -15px;
+	font-size: 1.2rem;	
+}
+
+#newsletter {
+	margin-top: 80px;
+	width: 100%;	
+}
+
+/*--------------------------------------------------------------
+1.3 - BUTTONS
+-------------------------------------------------------------- */
+
+#hero-button {
+	padding: 13px 50px;
+	border-style: solid;
+    border-width: 5px;
+	border-color: white;
+	margin-top: 70px;
+	width: 42%;	
+	font-size: 1.4rem;
+}
+
+#how-to-brew {
+	padding: 13px 50px;
+	border-style: solid;
+    border-width: 5px;
+	border-color: white;
+	margin: 100px 0 0 20px;
+	width: 90%;	
+	font-size: 1.4rem;	
+	text-align: center;
+}
+
+#sunrise-button {
+	padding: 13px 20px;
+	border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	margin-top: 70px;
+	width: 68%;	
+	font-size: 1.4rem;	
+}
+
+#finch-house-blend-button {
+	padding: 13px 20px;
+	border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	margin-top: 50px;
+	width: 68%;	
+	font-size: 1.4rem;	
+}
+
+#midnight-button {
+	padding: 13px 20px;
+	border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	margin-top: 67px;
+	width: 68%;	
+	font-size: 1.4rem;	
+}
+
+#espresso-button {
+	padding: 13px 20px;
+	border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	margin-top: 85px;
+	width: 63%;	
+	font-size: 1.4rem;	
+}
+
+#subscribe-button {
+	padding: 13px 50px;
+	border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	width: 61%;	
+	font-size: 1.4rem;
+	float: right;
+	margin-top: 19px;
+}
+
+#submit-button {
+	padding: 13px 66px;
+	border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	width: 100%;	
+	font-size: 1.4rem;
+	margin: 20px 0 0 65px;
+	text-align: center;
+}
+
+
+/*--------------------------------------------------------------
+1.4 - FORMS
+-------------------------------------------------------------- */
+
+form {
+	margin-top: 30px;	
+}
+
+label {
+	display:none;
+}
+
+input, textarea {
+	width: 195%;
+	padding: 19px;
+	border:2px solid black;
+	margin-top: 20px;
+}
+
+textarea {
+	width: 225%;	
+}
+
+#form-two {
+	margin: 40px 0 0 2px;	
+}
+
+/*--------------------------------------------------------------
+1.5 - LISTS
+-------------------------------------------------------------- */
+
+li {
+	list-style-type:none;
+	display: inline-block;
+	padding: 10px 25px;	
+}
+
+/*--------------------------------------------------------------
+2.0 - MAIN MENU
+-------------------------------------------------------------- */
+
+nav {
+	margin: 5px 0 75px 0;
+	width: 100%;
+	color: white;
+}
+
+a {
+	color: black;	
+}
+
+a:hover {
+	color: black;	
+}
+
+/*--------------------------------------------------------------
+3.0 - SITE STRUCTURE
+-------------------------------------------------------------- */
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;	
+	-moz-box-sizing: border-box;	
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 75%;
+	margin: 0 auto;	
+}
+
+.row:after {
+	content:"";
+	display: table;
+	clear:both;	
+}
+
+img {
+	max-width: 100%;	
+}
+
+[class*='col-'] {
+	float: left;
+	padding-right: 20px;	
+	margin-bottom: 20px;	
+	
+}
+
+[class*='col-']:last-of-type {
+	padding-right: 0;	
+}
+
+/*--------------------------------------------------------------
+3.1 - SINGLE COLUMNS
+-------------------------------------------------------------- */
+
+.col-1-1 {
+	width: 100%;	
+}
+
+.col-1-2 {
+	width: 50%;	
+}
+
+.col-1-3 {
+	width: 33.33%;	
+}
+
+.col-2-3 {
+	width: 66.66%;	
+}
+
+.col-1-4 {
+	width: 100%;	
+}
+
+.col-1-5 {
+	width: 20%;	
+}
+
+.col-1-6 {
+	width: 16.66%; 	
+}
+
+.col-1-7 {
+	width: 14.28%; 	
+}
+
+.col-1-8 {
+	width: 12.5%; 	
+}
+
+.col-1-9 {
+	width: 11.11%; 	
+}
+
+.col-1-10 {
+	width: 10%; 	
+}
+
+.col-1-11 {
+	width: 9.09%; 	
+}
+
+.col-1-12 {
+	width: 8.33%; 	
+}
+
+/*--------------------------------------------------------------
+3.2 - PARTIAL COLUMNS
+-------------------------------------------------------------- */
+
+.col-9-12 {
+	width: 91.67%;
+}
+
+.col-3-2 {
+	width: 100%;	
+}
+/*--------------------------------------------------------------
+3.3 - SECTIONS
+-------------------------------------------------------------- */
+
+/*--------------------------------------------------------------
+4.0 - MEDIA
+-------------------------------------------------------------- */	
+
+#twitter {
+	width: 50px;
+	height: 37px;
+	background:url(../img/twitter-icon.png) no-repeat;	
+	margin-left: 207px;
+}
+
+#google {
+	width: 50px;
+	height: 37px;
+	background:url(../img/google-icon.png) no-repeat;	
+}
+
+#facebook {
+	width: 50px;
+	height: 37px;
+	background:url(../img/facebook-icon.png) no-repeat;	
+}
+
+#logo {
+	background:url(../img/logo.png) no-repeat;
+	width: 100%;
+	height: 100px;	
+	margin: 30px 0 0 100px;
+}
+
+#background {
+	background:url(../img/coffee-hero.jpg) no-repeat;
+	width: 100%;
+	height: 810px;	
+}
+
+#eve-oak-img {
+	width: 40%;
+	height: 500px;
+	background:url(../img/seasonal-roast.png) no-repeat;
+}
+
+#map {
+	background:url(../img/map.jpg) no-repeat;
+	height: 230px;
+	margin-top: px;
+	width: 100%;	
+}
+
+#sunrise {
+	width: 110px;
+	height: 110px;
+	background:url(../img/sunrise.png) no-repeat center center;
+	border-style: solid;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	margin-top: 40px;
+	float: left;
+}
+
+#finch-house-blend {
+	width: 110px;
+	height: 110px;
+	background:url(../img/finchhouseblend.png) no-repeat center center;
+	border-style: solid;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	margin-top: 40px;
+	float: left;
+}
+
+#midnight {
+	width: 110px;
+	height: 110px;
+	background:url(../img/midnight.png) no-repeat center center;
+	border-style: solid;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	margin-top: 40px;
+	float: left;
+}
+
+#espresso {
+	width: 110px;
+	height: 110px;
+	background:url(../img/espresso.png) no-repeat center center;
+	border-style: solid;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	margin-top: 40px;
+	float: left;
+}
+
+
+/*--------------------------------------------------------------
+5.0 - UTILITY
+-------------------------------------------------------------- */
+
+/*--------------------------------------------------------------
+5.1 - BG COLORS
+-------------------------------------------------------------- */
+
+#background-two {
+	height: 2000px;	
+}
+
+#background-three {
+	background:url(../img/coffee-review-img.jpg) no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+#background-four {
+	height: 750px;	
+}
+
+#background-five {
+	height: 600px;
+	background-color: gray;	
+}
+
+#background-six {
+	background-color: gray;
+	height: 900px;
+	margin-top: 60px;	
+}
+
+
+
 	
 }
 
 
 
-@media screen and (max-width: 480px) {
-
-.col-1-4, .col-1-4:nth-child(2) {
-	width: 50%;	
-}
-
-.col-1-4:nth-child(2) {
-	padding-right: 0;	
-}
-
-.col-1-5 {
-	width: 100%;	
-	padding-right: 0;
-}
-
-.col-1-6 {
-	width: 33.33%;	
-}
-
-.col-1-7 {
-	width: 100%;	
-}
-
-.col-1-8 {
-	width: 50%;	
-}
-
-.col-1-9 {
-	width: 100%;	
-}
-
-.col-1-10 {
-	width: 20%;	
-}
-
-.col-1-11 {
-	width: 100%;	
-}
-
-.col-1-12 {
-	width:30%;	
-}
-
-}
