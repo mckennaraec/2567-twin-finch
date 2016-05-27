@@ -95,6 +95,7 @@ blockquote {
 	width: 60%;	
 	margin: -30px 0 0 210px;
 	font-size: 1.4rem;
+	line-height: 32px;
 }
 
 /*--------------------------------------------------------------
@@ -259,7 +260,8 @@ nav {
 }
 
 a {
-	color: black;	
+	color: black;
+	text-decoration: none;		
 }
 
 a:hover {
@@ -380,19 +382,21 @@ img {
 	width: 50px;
 	height: 37px;
 	background:url(../img/twitter-icon.png) no-repeat;	
-	margin-left: 207px;
+	margin: -29px 0 0 207px;
 }
 
 #google {
 	width: 50px;
 	height: 37px;
 	background:url(../img/google-icon.png) no-repeat;	
+	margin-top: -29px;
 }
 
 #facebook {
 	width: 50px;
 	height: 37px;
 	background:url(../img/facebook-icon.png) no-repeat;	
+	margin-top: -29px;
 }
 
 #logo {
@@ -520,21 +524,19 @@ img {
 1.1 - BODY
 -------------------------------------------------------------- */
 
-p {
-	font-size: 1rem;	
-}
-
 #eve-oak-txt {
 	color: white;
-	font-size: 1.3rem;
-	line-height: 25px;
-	margin: -30px 0 40px 0;
+	font-size: 1.1rem;
+	line-height: 23px;
+	margin: -30px 0 70px 0;
+	width: 200%;
 }
 
 #eve-oak-details {
 	color: white;
 	font-size: 1rem;
 	line-height: 20px;
+	width: 200%;
 }
 
 #eve-oak-price {
@@ -591,7 +593,8 @@ blockquote {
 
 h1 {
 	color:white;
-	font-size: 3.5rem;	
+	font-size: 2.7rem;
+	width: 200%;	
 }
 
 #h1 {
@@ -619,13 +622,14 @@ h3 {
 -------------------------------------------------------------- */
 
 #hero-button {
-	padding: 13px 50px;
+	padding: 10px 20px;
 	border-style: solid;
     border-width: 5px;
 	border-color: white;
-	margin-top: 70px;
-	width: 42%;	
+	margin-top: 40px;
+	width: 150%;	
 	font-size: 1.4rem;
+	text-align: center;
 }
 
 #how-to-brew {
@@ -640,64 +644,71 @@ h3 {
 }
 
 #sunrise-button {
-	padding: 13px 20px;
+	padding: 10px 10px;
 	border-style: solid;
     border-width: 5px;
 	border-color: black;
-	margin-top: 70px;
+	margin: 25px 0 40px 130px;
 	width: 68%;	
 	font-size: 1.4rem;	
+	text-align: center;
 }
 
 #finch-house-blend-button {
-	padding: 13px 20px;
+	padding: 10px 10px;
 	border-style: solid;
     border-width: 5px;
 	border-color: black;
-	margin-top: 50px;
+	margin: 25px 0 40px 130px;
 	width: 68%;	
 	font-size: 1.4rem;	
+	text-align: center;
 }
 
 #midnight-button {
-	padding: 13px 20px;
+	padding: 10px 10px;
 	border-style: solid;
     border-width: 5px;
 	border-color: black;
-	margin-top: 67px;
+	margin: 25px 0 40px 130px;
 	width: 68%;	
 	font-size: 1.4rem;	
+	text-align: center;
 }
+
 
 #espresso-button {
-	padding: 13px 20px;
+	padding: 10px 10px;
 	border-style: solid;
     border-width: 5px;
 	border-color: black;
-	margin-top: 85px;
+	margin: 25px 0 40px 130px;
 	width: 63%;	
 	font-size: 1.4rem;	
+	text-align: center;
 }
 
+
 #subscribe-button {
-	padding: 13px 50px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: black;
-	width: 61%;	
-	font-size: 1.4rem;
-	float: right;
-	margin-top: 19px;
+    padding: 10px 26px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 185%;
+    font-size: 1.1rem;
+    float: left;
+    margin: 85px 0 -7px -41px;
+    text-align: center;
 }
 
 #submit-button {
-	padding: 13px 66px;
+	padding: 6px 30px;
 	border-style: solid;
-    border-width: 5px;
+    border-width: 3px;
 	border-color: black;
 	width: 100%;	
 	font-size: 1.4rem;
-	margin: 20px 0 0 65px;
+	margin: 20px 0 0 155px;
 	text-align: center;
 }
 
@@ -716,7 +727,7 @@ label {
 
 input, textarea {
 	width: 195%;
-	padding: 19px;
+	padding: 14px;
 	border:2px solid black;
 	margin-top: 20px;
 }
@@ -727,6 +738,10 @@ textarea {
 
 #form-two {
 	margin: 40px 0 0 2px;	
+}
+
+#mobile {
+	width: 100%;	
 }
 
 /*--------------------------------------------------------------
@@ -871,19 +886,21 @@ img {
 	width: 50px;
 	height: 37px;
 	background:url(../img/twitter-icon.png) no-repeat;	
-	margin-left: 207px;
+	margin: -30px 0 0 1px;
 }
 
 #google {
 	width: 50px;
 	height: 37px;
 	background:url(../img/google-icon.png) no-repeat;	
+	margin-top: -30px;
 }
 
 #facebook {
 	width: 50px;
 	height: 37px;
 	background:url(../img/facebook-icon.png) no-repeat;	
+	margin-top: -30px;
 }
 
 #logo {
@@ -900,7 +917,7 @@ img {
 }
 
 #eve-oak-img {
-	width: 40%;
+	width: 0;
 	height: 500px;
 	background:url(../img/seasonal-roast.png) no-repeat;
 }
@@ -920,8 +937,8 @@ img {
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	margin-top: 40px;
-	float: left;
+	margin: 40px 20px 0 0;
+	float: left;;
 }
 
 #finch-house-blend {
@@ -932,7 +949,7 @@ img {
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	margin-top: 40px;
+	margin: 40px 20px 0 0;
 	float: left;
 }
 
@@ -944,7 +961,7 @@ img {
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	margin-top: 40px;
+	margin: 40px 20px 0 0;
 	float: left;
 }
 
@@ -956,7 +973,7 @@ img {
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	margin-top: 40px;
+	margin: 40px 20px 0 0;
 	float: left;
 }
 
@@ -970,7 +987,7 @@ img {
 -------------------------------------------------------------- */
 
 #background-two {
-	height: 2000px;	
+	height: 1650px;	
 }
 
 #background-three {
@@ -980,7 +997,7 @@ img {
 }
 
 #background-four {
-	height: 750px;	
+	height: 715px;	
 }
 
 #background-five {
@@ -990,12 +1007,9 @@ img {
 
 #background-six {
 	background-color: gray;
-	height: 900px;
+	height: 850px;
 	margin-top: 60px;	
 }
-
-
-
 	
 }
 

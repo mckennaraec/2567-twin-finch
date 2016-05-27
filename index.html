@@ -4,6 +4,7 @@
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<meta name="viewport" content="width=device-width, intitial-scale=1">
 <meta charset="UTF-8">
 <meta name="viewport" content="width-device=width, initial-scale=1">
 <title>Twin Finch Roastery</title>
@@ -17,11 +18,11 @@
         <div id="logo"></div>
       </div>
       <nav class="col-1-2">
-        <ul>
+        <ul id="smooth-scroll">
           <li><a href="#our-products">Products</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="">Connect</a></li>
+          <li><a href="#">Connect</a></li>
         </ul>
       </nav>
     </div>
@@ -125,7 +126,7 @@
 <section id="background-five">
   <div class="wrapper">
     <div class="row">
-      <div class="col-1-1" id="how-to-brew"> <a href=""><b>How To Brew</b></a></div>
+      <div class="col-1-1" id="how-to-brew"> <a href="http://www.google.com"><b>How To Brew</b></a></div>
     </div>
     <div class="row">
       <p class="col-3-2" id="brew-txt">Our coffee is roasted in a hot air, refractory lined roaster with an extraordinary level of control. The significance of relying on a high volume of hot air to roast coffee beans can't be understated. Most small coffee roasters use a single stage burner which offers virtually no control during the roasting process. The refractory significantly reduces hot spots which can damage coffee beans and produces a much more even roasting environment. </p>
@@ -137,7 +138,7 @@
     <header>
       <h3 id="newsletter">Subscribe To Our Newsletter</h3>
     </header>
-    <form>
+    <form id="mobile">
       <div class="col-1-2">
         <label>Email:</label>
         <input  name="email" type="text" value="" placeholder="Email"/>
@@ -172,9 +173,9 @@
       </form>
     </div>
     <div class="row">
-      <div class="col-1-1" id="twitter"></div>
-      <div class="col-1-1" id="google"></div>
-      <div class="col-1-1" id="facebook"></div>
+      <div class="col-1-1" id="twitter"><a href="www.twitter.com"></a></div>
+      <div class="col-1-1" id="google"><a href="www.google.com"></a></div>
+      <div class="col-1-1" id="facebook"><a href="www.facebook.com"></a></div>
     </div>
   </div>
 </section>
@@ -192,7 +193,7 @@ jQuery(document).ready(function($){
 			
 			$('html, body').animate({
 			   scrollTop: $(this.hash).offset().top-0
-			 }, 500, function(){
+			 }, 700, function(){
 		
 			   // when done, add hash to url
 			   // (default click behaviour)
