@@ -39,24 +39,31 @@
 1.1 - BODY
 -------------------------------------------------------------- */
 
+p {
+	font-family: 'Montserrat', sans-serif;
+}	
+
 #eve-oak-txt {
 	color: white;
 	font-size: 1.3rem;
-	line-height: 25px;
+	line-height: 1.8rem;
 	margin: -30px 0 40px 0;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #eve-oak-details {
 	color: white;
 	font-size: 1rem;
-	line-height: 20px;
+	line-height: 1.4rem;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #eve-oak-price {
 	color: white;
 	font-size: 1.4rem;
-	line-height: 20px;
+	line-height: 1.4rem;
 	margin-top: -10px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 blockquote {
@@ -65,37 +72,58 @@ blockquote {
 	text-align: center;	
 	font-weight: 700;
 	margin: 165px 0 0 130px;
+	font-family: 'Montserrat', sans-serif;
 }
 
-#cite {
+footer {
 	font-weight: 400;
 	font-size: 1.3rem;
 	margin-top: -20px;	
+	font-family: 'Montserrat', sans-serif;
 }
 
 #location {
 	margin-top: 26px;	
 	font-size: 1.2rem;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #about-txt {
 	margin-top: 62px;	
 	font-size: 1.2rem;
+	font-family: 'Montserrat', sans-serif;
 }
+
 
 #brew-txt {
 	text-align: center;
 	font-size: 1.4rem;
-	line-height: 32px;
+	line-height: 2.1rem;
 	margin: 40px 0 0 125px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
 }
 
 #center {
 	text-align: center;
 	width: 60%;	
 	margin: -30px 0 0 210px;
-	font-size: 1.4rem;
-	line-height: 32px;
+	font-size: 1.3rem;
+	line-height: 2.1rem;
+	color: white;
+}
+
+#contact {
+	color: white;	
+}
+
+#coffee-callout {
+	background-color: black;
+	color: white;
+	padding: 5px 10px;	
+	margin: -57px 0 0 0;
+	width: 60%;
+	font-size: .6rem;
 }
 
 /*--------------------------------------------------------------
@@ -105,6 +133,7 @@ blockquote {
 h1 {
 	color:white;
 	font-size: 3.5rem;	
+	font-family: 'Montserrat', sans-serif;
 }
 
 #h1 {
@@ -115,15 +144,18 @@ h2 {
 	font-size: 2rem;
 	text-align: center;
 	margin-top: 80px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
 	margin-bottom: -15px;
 	font-size: 1.4rem;	
+	font-family: 'Montserrat', sans-serif;
 }
 
 #newsletter {
 	margin-top: 80px;	
+	color: white;
 }
 
 /*--------------------------------------------------------------
@@ -136,8 +168,10 @@ h3 {
     border-width: 5px;
 	border-color: white;
 	margin-top: 70px;
-	width: 42%;	
-	font-size: 1.4rem;
+	width: 47%;	
+	font-size: 1.3rem;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
 }
 
 #how-to-brew {
@@ -147,7 +181,8 @@ h3 {
 	border-color: white;
 	margin: 120px 0 0 400px;
 	width: 24%;	
-	font-size: 1.4rem;	
+	font-size: 1.3rem;
+	font-family: 'Montserrat', sans-serif;	
 }
 
 #sunrise-button {
@@ -157,7 +192,8 @@ h3 {
 	border-color: black;
 	margin-top: 70px;
 	width: 68%;	
-	font-size: 1.4rem;	
+	font-size: 1.3rem;	
+	font-family: 'Montserrat', sans-serif;
 }
 
 #finch-house-blend-button {
@@ -167,7 +203,8 @@ h3 {
 	border-color: black;
 	margin-top: 50px;
 	width: 68%;	
-	font-size: 1.4rem;	
+	font-size: 1.3rem;	
+	font-family: 'Montserrat', sans-serif;
 }
 
 #midnight-button {
@@ -177,7 +214,8 @@ h3 {
 	border-color: black;
 	margin-top: 67px;
 	width: 68%;	
-	font-size: 1.4rem;	
+	font-size: 1.3rem;	
+	font-family: 'Montserrat', sans-serif;
 }
 
 #espresso-button {
@@ -187,28 +225,32 @@ h3 {
 	border-color: black;
 	margin-top: 85px;
 	width: 63%;	
-	font-size: 1.4rem;	
+	font-size: 1.3rem;	
+	font-family: 'Montserrat', sans-serif;
 }
 
 #subscribe-button {
 	padding: 13px 50px;
 	border-style: solid;
     border-width: 5px;
-	border-color: black;
+	border-color: white;
 	width: 61%;	
 	font-size: 1.4rem;
 	float: right;
 	margin-top: 19px;
+	font-family: 'Montserrat', sans-serif;
 }
+
 
 #submit-button {
 	padding: 13px 66px;
 	border-style: solid;
     border-width: 5px;
-	border-color: black;
+	border-color: white;
 	width: 100%;	
 	font-size: 1.4rem;
-	margin: 20px 0 0 437px;
+	margin: 20px 0 0 422px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -227,8 +269,10 @@ label {
 input, textarea {
 	width: 120%;
 	padding: 19px;
-	border:2px solid black;
+	border:2px solid white;
 	margin-top: 20px;
+	background-color: black;
+	color: white;
 }
 
 textarea {
@@ -247,6 +291,7 @@ li {
 	list-style-type:none;
 	display: inline-block;
 	padding: 10px 25px;	
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -266,6 +311,10 @@ a {
 
 a:hover {
 	color: black;	
+}
+
+nav, a {
+	color: white;	
 }
 
 /*--------------------------------------------------------------
@@ -468,6 +517,11 @@ img {
 	margin-top: 40px;
 }
 
+#call-out {
+	background:url(../img/call-out.png) no-repeat;
+	height: 100px;
+	margin: -180px 0 105px 50px;
+}	
 
 /*--------------------------------------------------------------
 5.0 - UTILITY
@@ -493,13 +547,20 @@ img {
 
 #background-five {
 	height: 500px;
-	background-color: gray;	
+	background-color: #272727;	
 }
 
 #background-six {
-	background-color: gray;
+	background-color: #000000;
 	height: 850px;
 	margin-top: 60px;	
+}
+ 
+#black {
+	background-color: black;
+	height: 300px;
+	margin-top: -10px;
+	padding-top: 20px;	
 }
 
 /*--------------------------------------------------------------
@@ -527,7 +588,7 @@ img {
 #eve-oak-txt {
 	color: white;
 	font-size: 1.1rem;
-	line-height: 23px;
+	line-height: 1.4rem;
 	margin: -30px 0 70px 0;
 	width: 200%;
 }
@@ -535,14 +596,14 @@ img {
 #eve-oak-details {
 	color: white;
 	font-size: 1rem;
-	line-height: 20px;
+	line-height: 1rem;
 	width: 200%;
 }
 
 #eve-oak-price {
 	color: white;
 	font-size: 1.4rem;
-	line-height: 20px;
+	line-height: 1rem;
 	margin-top: -10px;
 }
 
@@ -562,20 +623,20 @@ blockquote {
 
 #location {
 	margin-top: 10px;	
-	font-size: 1rem;
+	font-size: 1.2rem;
 	width: 100%
 }
 
 #about-txt {
 	margin-top: 15px;	
-	font-size: 1rem;
+	font-size: 1.4rem;
 	width: 100%
 }
 
 #brew-txt {
 	text-align: center;
-	font-size: 1.2rem;
-	line-height: 23px;
+	font-size: 1.4rem;
+	line-height: 1.2rem;
 	margin: 30px 0 0 5px;
 	width: 100%;
 }
@@ -585,6 +646,7 @@ blockquote {
 	width: 100%;	
 	margin: -30px 0 0 5px;
 	font-size: 1rem;
+	line-height: 1.5rem;
 }
 
 /*--------------------------------------------------------------
@@ -693,7 +755,7 @@ h3 {
     padding: 10px 26px;
     border-style: solid;
     border-width: 3px;
-    border-color: black;
+    border-color: white;
     width: 185%;
     font-size: 1.1rem;
     float: left;
@@ -705,10 +767,10 @@ h3 {
 	padding: 6px 30px;
 	border-style: solid;
     border-width: 3px;
-	border-color: black;
+	border-color: white;
 	width: 100%;	
 	font-size: 1.4rem;
-	margin: 20px 0 0 155px;
+	margin: 20px 0 0 145px;
 	text-align: center;
 }
 
@@ -728,8 +790,10 @@ label {
 input, textarea {
 	width: 195%;
 	padding: 14px;
-	border:2px solid black;
+	border:2px solid white;
 	margin-top: 20px;
+	background-color: black;
+	color: white;
 }
 
 textarea {
@@ -770,6 +834,10 @@ a {
 
 a:hover {
 	color: black;	
+}
+
+nav, a {
+	color: white;	
 }
 
 /*--------------------------------------------------------------
@@ -1002,13 +1070,20 @@ img {
 
 #background-five {
 	height: 600px;
-	background-color: gray;	
+	background-color: #272727;	
 }
 
 #background-six {
-	background-color: gray;
+	background-color: #000000;
 	height: 850px;
 	margin-top: 60px;	
+}
+
+#black {
+	background-color: black;
+	height: 300px;
+	margin-top: -10px;
+	padding-top: 20px;	
 }
 	
 }
