@@ -6,20 +6,20 @@
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 1.0 - Typography
-	1.1 - Headings
-	1.2 - Body Copy
+	1.1 - Body
+	1.2 - Headings
 	1.3 - Buttons
 	1.4 - Forms
 	1.5 - Lists
 	1.6 - Tables
 2.0 - Navigation Menus
-	3.1 - Main Menu
-	3.2 - Sub Menu
-	3.3 - Footer Menu
+	2.1 - Main Menu
+	2.2 - Sub Menu
+	2.3 - Footer Menu
 3.0 - Content
 	3.1 - Site Structure
-	3.2 - Section Name
-	3.3 - Section Name
+	3.2 - Single Columns
+	3.3 - Partial Columns
 4.0 - Media
 5.0 - Utility
 	5.1 - Background Colors
@@ -29,87 +29,72 @@
 --------------------------------------------------------------*/
 
 
+
 /*--------------------------------------------------------------
 1.0 - TYPOGRAPHY
 -------------------------------------------------------------- */
-
-
 
 /*--------------------------------------------------------------
 1.1 - BODY
 -------------------------------------------------------------- */
 
-p {
+html {
 	font-family: 'Montserrat', sans-serif;
 }	
 
 #eve-oak-txt {
 	color: white;
-	font-size: 1.3rem;
-	line-height: 1.8rem;
+	font: 1.3rem/1.8rem 'Montserrat', sans-serif;
 	margin: -30px 0 40px 0;
-	font-family: 'Montserrat', sans-serif;
+
 }
 
 #eve-oak-details {
 	color: white;
-	font-size: 1rem;
-	line-height: 1.4rem;
-	font-family: 'Montserrat', sans-serif;
+	font: 1rem/1.4rem 'Montserrat', sans-serif;
 }
 
 #eve-oak-price {
 	color: white;
-	font-size: 1.4rem;
-	line-height: 1.4rem;
+	font: 1.4rem/1.4rem 'Montserrat', sans-serif;
 	margin-top: -10px;
-	font-family: 'Montserrat', sans-serif;
 }
 
 blockquote {
-	font-size: 2rem;
+	font: 700 2rem 'Montserrat', sans-serif;
 	color: white;
 	text-align: center;	
-	font-weight: 700;
 	margin: 165px 0 0 130px;
-	font-family: 'Montserrat', sans-serif;
 }
 
 footer {
-	font-weight: 400;
-	font-size: 1.3rem;
+	font: 400 1.3rem 'Montserrat', sans-serif;
 	margin-top: -20px;	
-	font-family: 'Montserrat', sans-serif;
 }
 
 #location {
 	margin-top: 26px;	
-	font-size: 1.2rem;
-	font-family: 'Montserrat', sans-serif;
+	font: 1.2rem 'Montserrat', sans-serif;
 }
 
 #about-txt {
 	margin-top: 57px;	
-	font-size: 1.2rem;
-	font-family: 'Montserrat', sans-serif;
+	font: 1.2rem 'Montserrat', sans-serif;
 }
 
 
 #brew-txt {
+	font: 1.4rem/2.1rem 'Montserrat', sans-serif;
 	text-align: center;
-	font-size: 1.4rem;
-	line-height: 2.1rem;
 	margin: 40px 0 0 125px;
-	font-family: 'Montserrat', sans-serif;
 	color: white;
 }
 
 #center {
+	font: 1.3rem/2.1rem 'Montserrat', sans-serif;
 	text-align: center;
 	width: 60%;	
 	margin: -30px 0 0 210px;
-	font-size: 1.3rem;
-	line-height: 2.1rem;
 	color: white;
 }
 
@@ -136,25 +121,19 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-#h1 {
-	width: 100%;
-}
-
 h2 {
-	font-size: 2rem;
+	font: 700 2rem 'Montserrat', sans-serif;
 	text-align: center;
-	margin-top: 80px;
-	font-family: 'Montserrat', sans-serif;
+	margin: 60px auto;
 }
 
 h3 {
 	margin-bottom: -15px;
-	font-size: 1.4rem;	
-	font-family: 'Montserrat', sans-serif;
+	font: 700 1.4rem 'Montserrat', sans-serif;	
 }
 
 #newsletter {
-	margin-top: 80px;	
+	margin: 45px auto;	
 	color: white;
 	font-size: 2rem;
 }
@@ -164,96 +143,74 @@ h3 {
 -------------------------------------------------------------- */
 
 #hero-button {
+	font: 1.3rem 'Montserrat', sans-serif;
 	padding: 13px 50px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: white;
+	border: 5px solid white;
 	margin-top: 70px;
 	width: 47%;	
-	font-size: 1.3rem;
-	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 }
 
 
 #how-to-brew {
-	padding: 13px 50px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: white;
+	font: 1.3rem 'Montserrat', sans-serif;
+	padding: 13px 55px;
+	border: 5px solid white;
 	margin: 90px 0 0 400px;
 	width: 24%;	
-	font-size: 1.3rem;
-	font-family: 'Montserrat', sans-serif;	
 }
 
 #sunrise-button {
 	padding: 13px 20px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: black;
+	border: 5px solid black;
 	margin-top: 70px;
 	width: 68%;	
-	font-size: 1.3rem;	
-	font-family: 'Montserrat', sans-serif;
+	font: 1.3rem 'Montserrat', sans-serif;
 }
 
 
 #finch-house-blend-button {
 	padding: 13px 20px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: black;
+	border: 5px solid black;
 	margin-top: 50px;
 	width: 68%;	
-	font-size: 1.3rem;	
-	font-family: 'Montserrat', sans-serif;
+	font: 1.3rem 'Montserrat', sans-serif;
 }
 
 #midnight-button {
 	padding: 13px 20px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: black;
+	border: 5px solid black;
 	margin-top: 67px;
 	width: 68%;	
-	font-size: 1.3rem;	
-	font-family: 'Montserrat', sans-serif;
+	font: 1.3rem 'Montserrat', sans-serif;
 }
 
 #espresso-button {
 	padding: 13px 20px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: black;
+	border: 5px solid black;
 	margin-top: 85px;
 	width: 63%;	
 	font-size: 1.3rem;	
-	font-family: 'Montserrat', sans-serif;
+	font: 1.3rem 'Montserrat', sans-serif;
 }
 
 #subscribe-button {
 	padding: 13px 50px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: white;
+	border: 5px solid white;
 	width: 61%;	
-	font-size: 1.4rem;
 	float: right;
 	margin-top: 19px;
-	font-family: 'Montserrat', sans-serif;
+	font: 1.4rem 'Montserrat', sans-serif;
 }
 
 
 #submit-button {
 	padding: 13px 66px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: white;
+	border: 5px solid white;
 	width: 100%;	
-	font-size: 1.4rem;
+	font: 1.4rem 'Montserrat', sans-serif;
 	margin: 20px 0 0 422px;
-	font-family: 'Montserrat', sans-serif;
+	
 }
 
 
@@ -279,7 +236,7 @@ input, textarea {
 }
 
 textarea {
-	width: 296%;	
+	width: 273%;	
 }
 
 #form-two {
@@ -294,11 +251,10 @@ li {
 	list-style-type:none;
 	display: inline-block;
 	padding: 10px 25px;	
-	font-family: 'Montserrat', sans-serif;
 }
 
 /*--------------------------------------------------------------
-2.0 - MAIN MENU
+2.1 - MAIN MENU
 -------------------------------------------------------------- */
 
 nav {
@@ -321,7 +277,7 @@ nav, a {
 }
 
 /*--------------------------------------------------------------
-3.0 - SITE STRUCTURE
+3.1 - SITE STRUCTURE
 -------------------------------------------------------------- */
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;	
@@ -356,7 +312,7 @@ img {
 }
 
 /*--------------------------------------------------------------
-3.1 - SINGLE COLUMNS
+3.2 - SINGLE COLUMNS
 -------------------------------------------------------------- */
 
 .col-1-1 {
@@ -412,7 +368,7 @@ img {
 }
 
 /*--------------------------------------------------------------
-3.2 - PARTIAL COLUMNS
+3.3 - PARTIAL COLUMNS
 -------------------------------------------------------------- */
 
 .col-9-12 {
@@ -422,9 +378,6 @@ img {
 .col-3-2 {
 	width: 75%;	
 }
-/*--------------------------------------------------------------
-3.3 - SECTIONS
--------------------------------------------------------------- */
 
 /*--------------------------------------------------------------
 4.0 - MEDIA
@@ -434,21 +387,21 @@ img {
 	width: 50px;
 	height: 45px;
 	background:url(../img/twitter-icon.png) no-repeat;	
-	margin: -29px 0 0 207px;
+	margin: -40px 0 0 170px;
 }
 
 #google {
 	width: 50px;
 	height: 45px;
 	background:url(../img/google-icon.png) no-repeat;	
-	margin-top: -29px;
+	margin-top: -40px;
 }
 
 #facebook {
 	width: 50px;
 	height: 45px;
 	background:url(../img/facebook-icon.png) no-repeat;	
-	margin-top: -29px;
+	margin-top: -40px;
 }
 
 #logo {
@@ -527,61 +480,43 @@ img {
 }	
 
 /*--------------------------------------------------------------
-5.0 - UTILITY
--------------------------------------------------------------- */
-
-/*--------------------------------------------------------------
 5.1 - BG COLORS
 -------------------------------------------------------------- */
 
-#background-two {
+#background-product {
 	height: 760px;	
 }
 
-#background-three {
+#background-review {
 	background:url(../img/coffee-review-img.jpg) no-repeat;
 	width: 100%;
 	height: 500px;
 }
 
-#background-four {
+#background-about {
 	height: 525px;	
 }
 
-#background-five {
+#background-brew {
 	height: 500px;
 	background-color: #272727;	
 }
 
-#background-six {
+#background-contact {
 	background-color: #000000;
-	height: 850px;
-	margin-top: 60px;	
+	height: 880px;
+	margin-top: 4px;	
 }
  
 #black {
 	background-color: black;
 	height: 300px;
-	margin-top: -10px;
 	padding-top: 20px;	
 }
 
-/*--------------------------------------------------------------
-5.2 - TXT UTILITY
--------------------------------------------------------------- */
-
-/*--------------------------------------------------------------
-5.3 - SPACING
--------------------------------------------------------------- */
-
-/*--------------------------------------------------------------
-5.4 - ALIGNMENTS
--------------------------------------------------------------- */
 
 
-
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
 
 /*--------------------------------------------------------------
@@ -590,23 +525,20 @@ img {
 
 #eve-oak-txt {
 	color: white;
-	font-size: 1.1rem;
-	line-height: 1.4rem;
+	font: .6rem/1.4rem;
 	margin: -30px 0 70px 0;
 	width: 200%;
 }
 
 #eve-oak-details {
 	color: white;
-	font-size: 1rem;
-	line-height: 1rem;
+	font: 1rem/1rem;
 	width: 200%;
 }
 
 #eve-oak-price {
 	color: white;
-	font-size: 1.4rem;
-	line-height: 1rem;
+	font-size: 1.4rem/1rem;
 	margin-top: -10px;
 }
 
@@ -619,8 +551,7 @@ blockquote {
 }
 
 #cite {
-	font-weight: 400;
-	font-size: .9rem;
+	font-weight: 400 .9rem;
 	margin-top: -20px;	
 }
 
@@ -662,14 +593,10 @@ h1 {
 	width: 200%;	
 }
 
-#h1 {
-	width: 100%;
-}
-
 h2 {
 	font-size: 2rem;
 	text-align: center;
-	margin-top: 50px;
+	margin: 50px auto;
 }
 
 h3 {
@@ -678,7 +605,7 @@ h3 {
 }
 
 #newsletter {
-	margin-top: 50px;
+	margin-top: 50px auto;
 	width: 100%;	
 	font-size: 1.2rem;
 }
@@ -689,9 +616,7 @@ h3 {
 
 #hero-button {
 	padding: 10px 20px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: white;
+	border: 5px solid white;
 	margin-top: 40px;
 	width: 150%;	
 	font-size: 1.4rem;
@@ -700,9 +625,7 @@ h3 {
 
 #how-to-brew {
 	padding: 13px 50px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: white;
+	border: 5px solid white;
 	margin: 100px 0 0 20px;
 	width: 90%;	
 	font-size: 1.4rem;	
@@ -711,9 +634,7 @@ h3 {
 
 #sunrise-button {
 	padding: 10px 10px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: black;
+	border: 5px solid black;
 	margin: 25px 0 40px 130px;
 	width: 68%;	
 	font-size: 1.4rem;	
@@ -722,9 +643,7 @@ h3 {
 
 #finch-house-blend-button {
 	padding: 10px 10px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: black;
+	border: 5px solid black;
 	margin: 25px 0 40px 130px;
 	width: 68%;	
 	font-size: 1.4rem;	
@@ -733,9 +652,7 @@ h3 {
 
 #midnight-button {
 	padding: 10px 10px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: black;
+	border: 5px solid black;
 	margin: 25px 0 40px 130px;
 	width: 68%;	
 	font-size: 1.4rem;	
@@ -745,9 +662,7 @@ h3 {
 
 #espresso-button {
 	padding: 10px 10px;
-	border-style: solid;
-    border-width: 5px;
-	border-color: black;
+	border: 5px solid black;
 	margin: 25px 0 40px 130px;
 	width: 63%;	
 	font-size: 1.4rem;	
@@ -756,22 +671,18 @@ h3 {
 
 
 #subscribe-button {
-    padding: 10px 26px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: white;
-    width: 185%;
+    padding: 10px 17px;
+    border: 5px solid white;
+    width: 150%;
     font-size: 1.1rem;
     float: left;
-    margin: 85px 0 -7px -41px;
+    margin: 20px 0 -7px 15px;
     text-align: center;
 }
 
 #submit-button {
 	padding: 6px 30px;
-	border-style: solid;
-    border-width: 3px;
-	border-color: white;
+	border: 3px solid white;
 	width: 100%;	
 	font-size: 1.4rem;
 	margin: 20px 0 0 145px;
@@ -810,6 +721,10 @@ textarea {
 
 #mobile {
 	width: 100%;	
+}
+
+#email {
+	width: 120%;	
 }
 
 /*--------------------------------------------------------------
@@ -880,7 +795,7 @@ img {
 }
 
 /*--------------------------------------------------------------
-3.1 - SINGLE COLUMNS
+3.2 - SINGLE COLUMNS
 -------------------------------------------------------------- */
 
 .col-1-1 {
@@ -936,7 +851,7 @@ img {
 }
 
 /*--------------------------------------------------------------
-3.2 - PARTIAL COLUMNS
+3.3 - PARTIAL COLUMNS
 -------------------------------------------------------------- */
 
 .col-9-12 {
@@ -946,9 +861,6 @@ img {
 .col-3-2 {
 	width: 100%;	
 }
-/*--------------------------------------------------------------
-3.3 - SECTIONS
--------------------------------------------------------------- */
 
 /*--------------------------------------------------------------
 4.0 - MEDIA
@@ -958,28 +870,28 @@ img {
 	width: 50px;
 	height: 45px;
 	background:url(../img/twitter-icon.png) no-repeat;	
-	margin: -30px 0 0 1px;
+	margin: -43px 0 0 -40px;
 }
 
 #google {
 	width: 50px;
 	height: 45px;
 	background:url(../img/google-icon.png) no-repeat;	
-	margin-top: -30px;
+	margin-top: -43px;
 }
 
 #facebook {
 	width: 50px;
 	height: 45px;
 	background:url(../img/facebook-icon.png) no-repeat;	
-	margin-top: -30px;
+	margin-top: -43px;
 }
 
 #logo {
 	background:url(../img/logo.png) no-repeat;
-	width: 100%;
-	height: 100px;	
-	margin: 30px 0 0 100px;
+	width: 134px;
+    height: 100px;
+    margin: 30px auto;
 }
 
 #background {
@@ -1055,36 +967,32 @@ img {
 }
 
 /*--------------------------------------------------------------
-5.0 - UTILITY
--------------------------------------------------------------- */
-
-/*--------------------------------------------------------------
 5.1 - BG COLORS
 -------------------------------------------------------------- */
 
-#background-two {
+#background-product {
 	height: 1550px;	
 }
 
-#background-three {
+#background-review {
 	background:url(../img/coffee-review-img.jpg) no-repeat;
 	width: 100%;
 	height: 500px;
 }
 
-#background-four {
+#background-about {
 	height: 770px;	
 }
 
-#background-five {
+#background-brew {
 	height: 600px;
 	background-color: #272727;	
 }
 
-#background-six {
+#background-contact {
 	background-color: #000000;
-	height: 850px;
-	margin-top: 60px;	
+	height: 880px;
+	margin-top: 4px;	
 }
 
 #black {
