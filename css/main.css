@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -27,7 +26,6 @@
 	5.3 - Text Sizes
 	5.4 - Alignments
 --------------------------------------------------------------*/
-
 
 
 /*--------------------------------------------------------------
@@ -168,7 +166,6 @@ h3 {
 	font: 1.3rem 'Montserrat', sans-serif;
 }
 
-
 #finch-house-blend-button {
 	padding: 13px 20px;
 	border: 5px solid black;
@@ -203,14 +200,12 @@ h3 {
 	font: 1.4rem 'Montserrat', sans-serif;
 }
 
-
 #submit-button {
 	padding: 13px 66px;
 	border: 5px solid white;
 	width: 100%;	
 	font: 1.4rem 'Montserrat', sans-serif;
 	margin: 20px 0 0 422px;
-	
 }
 
 
@@ -304,7 +299,6 @@ img {
 	float: left;
 	padding-right: 20px;	
 	margin-bottom: 20px;	
-	
 }
 
 [class*='col-']:last-of-type {
@@ -513,7 +507,6 @@ img {
 	height: 300px;
 	padding-top: 20px;	
 }
-
 
 
 @media screen and (max-width: 768px) {
